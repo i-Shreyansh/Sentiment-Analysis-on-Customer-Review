@@ -11,7 +11,15 @@ This repository contains a project for performing Aspect-Based Sentiment Analysi
 ### Key Features:
 - Sentiment analysis based on customer reviews.
 - Aspect-based extraction: Different categories of sentiment (e.g., service, food quality, atmosphere).
-- Uses natural language processing techniques for sentiment scoring.
+- Uses an LSTM-based model for sentiment classification.
+  
+## Model Information
+
+The model used for sentiment analysis is an LSTM (Long Short-Term Memory) network trained on the YELP dataset. The trained model is saved as `lstm_senti.h5`. The model performs aspect-based sentiment analysis by categorizing sentiments for specific review aspects.
+
+### Model Training
+
+The model was trained using the [aspect-based-sentiment-analysis-on-customer-review.ipynb](aspect-based-sentiment-analysis-on-customer-review.ipynb) notebook, which is available in this repository. The notebook contains all the steps required to preprocess the data, train the model, and evaluate its performance.
 
 ## Dataset
 
